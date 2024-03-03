@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPI CALCULATOR</title>
+    <link rel="stylesheet" href="ppi.css">
+</head>
+<body>
+    <div>
+        <h1>PPI (Pixel Per Inch)</h1>
+        <p id="info">Please enter the Height [in pixel], Width [in pixel] and Diagonal Length [in inches] </p>
+        <p class="text">HEIGHT:</p>
+        <input type="number" id="height">&nbsp;&nbsp;<span class="unit">pixel</span>
+        <p class="text">WIDTH:</p>
+        <input type="number" id="width">&nbsp;&nbsp;<span class="unit">pixel</span>
+        <p class="text">DIAGONAL [in INCHES]: </p>
+        <input type="number" id="d-inch">&nbsp;&nbsp;<span class="unit">inch</span>
+        <p id="result"></p>
+        <button id="btn" onclick="ppi()">CALCULATE</button>
+    </div>
+
+    <script src="ppi.js"></script>
+</body>
+</html>
