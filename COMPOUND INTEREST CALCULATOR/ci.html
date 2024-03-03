@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPOUND INTEREST</title>
+    <link rel="stylesheet" href="ci.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="principal">PRINCIPAL(RS):</label>
+                <input type="number" name="" id="principal" value="1000">
+            </div>
+            <div class="wrapper">
+                <label for="rate">RATE:</label>
+                <input type="number" name="" id="rate" value="5">
+            </div>
+        </div>
+        <label for="time">TIME:</label>
+        <div class="time-wrapper">
+            <input type="number" name="" id="time" value="1">
+            <select name="duration" id="duration">
+                <option value="year">YEAR</option>
+                <option value="month">MONTH</option>
+            </select>
+        </div>
+        <button id="calculate-btn">CALCULATE</button>
+        <div id="result"></div>
+    </div>
+    
+
+
+    <script src="ci.js"></script>
+</body>
+</html>
