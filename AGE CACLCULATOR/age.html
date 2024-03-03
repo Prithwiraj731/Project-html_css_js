@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link rel="stylesheet" href="age.css">
+    <link rel="stylesheet" href="C:\Users\prith\OneDrive - RICE Group\HTML\bootstrap-5.3.2-dist\css">
+    <script src="C:\Users\prith\OneDrive - RICE Group\HTML\bootstrap-5.3.2-dist\js\bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Protest+Guerrilla&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="base">
+            <h3>AGE CALCULATOR</h3>
+        </div>
+        <div class="block">
+            <p class="title">DATE</p>
+            <input type="number" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2">
+        </div>
+        <div class="block">
+            <p class="title">MONTH</p>
+            <input type="number" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2">
+        </div>
+        <div class="block">
+            <p class="title">YEAR</p>
+            <input type="number" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4">
+        </div>
+        <div id="age"></div>
+        <div class="submit-button">
+            <input type="button" name="submit" value="SUBMIT" onclick="age()">
+        </div>
+    </div>
+    <script src="age.js"></script>    
+</body>
+</html>
