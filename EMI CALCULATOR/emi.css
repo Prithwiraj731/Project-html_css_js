@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    /* background: #6d177e;
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+    background: linear-gradient(to right, #9733EE, #DA22FF); */
+    background-image: url(emiBg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cointainer {
+    width: 60vw;
+    height: 80vh;
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border-radius: 1rem;
+    box-shadow: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+}
+label{
+    font-size: 20px;
+    color: aqua;
+}
+input {
+    padding: .5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #cf11e4;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: .5rem 2.8rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff21b9;
+    box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0.5em 0 #0ef;
+    transition-duration: .2s;
+    transition-property: box-shadow;
+}
+
+.result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
